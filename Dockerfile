@@ -36,3 +36,6 @@ ADD test-keras.py /root/
 
 # cd to homedir
 WORKDIR /root/
+
+# Expose 6006 for tensorboard graph
+EXPOSE 6006
